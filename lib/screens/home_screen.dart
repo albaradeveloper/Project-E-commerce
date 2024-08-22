@@ -5,85 +5,62 @@ import '../../widgets/product_item.dart';
 class HomeScreen extends StatelessWidget {
   final List<Product> loadedProducts = [
     Product(
-      id: 'p1',
-      title: 'LapTop',
-      description: 'Lenovo ThinkPad T440p',
+      id: '1',
+      title: 'بيتزا',
+      description: 'بيتزا بالحمه',
       price: 499.99,
       imageUrl:
-          'https://th.bing.com/th/id/R.f769feba7d81b240096c3dbe1d7696da?rik=VseqEnNd7Jr5ug&pid=ImgRaw&r=0',
+          'https://th.bing.com/th/id/R.a55802f0374676c731d4715c463bfb19?rik=qFdO%2ft7RJWWfYA&pid=ImgRaw&r=0',
     ),
     Product(
-      id: 'P2',
-      title: 'Mobile',
-      description: 'Samsung A12',
+      id: '2',
+      title: 'بيرقر',
+      description: 'بيرقر كبير',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.09uF1Zok3o-AiDDCRpjWmAHaEE?rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.bR0IZ8zNzSTCnA0fMMz-xQHaHa?rs=1&pid=ImgDetMain',
     ),
     Product(
-      id: 'p1',
-      title: 'Teshirt',
-      description: 'A red shirt - it is pretty red!',
+      id: '3',
+      title: 'فطيرة',
+      description: 'فطيرة مالحه',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.bK2ECyEjLc6O0YJMlylHiAHaHa?rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.Lp3-w2dWwfOu54VczRRYMwHaE8?rs=1&pid=ImgDetMain',
     ),
     Product(
-      id: 'p1',
-      title: 'CCTV',
-      description: 'A red shirt - it is pretty red!',
+      id: '4',
+      title: 'شاورما',
+      description: 'شاورما دجاج',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.ItIO1tYo9zyHeYDcGhFtkQHaHa?rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.s_jj-zisu7o8DVzvAcuVTQHaE8?rs=1&pid=ImgDetMain',
     ),
     Product(
-      id: 'p1',
-      title: 'Car',
-      description: 'A red shirt - it is pretty red!',
+      id: '5',
+      title: 'كرسبي',
+      description: 'كرسبي',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.cM7UKHY6r6Aifz2uzRSqzAHaD2?rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.VVzczdSTLUPkyE3CUngYVgHaHa?rs=1&pid=ImgDetMain',
     ),
     Product(
-      id: 'p1',
-      title: 'LapTop',
-      description: 'Lenovo ThinkPad T440p',
+      id: '6',
+      title: 'شيش طاووق',
+      description: 'شيش',
       price: 499.99,
       imageUrl:
-      'https://na3em.cc/wp-content/uploads/2018/08/2317-10.jpg',
+      'https://th.bing.com/th/id/R.2f0aee56c23874d6fc17fe66d71be658?rik=CpH%2fh3ntnj7JGQ&pid=ImgRaw&r=0',
     ),
     Product(
-      id: 'P2',
-      title: 'Mobile',
-      description: 'Samsung A12',
+      id: '7',
+      title: 'سمك',
+      description: 'سمك محمر',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.JryLHQFzuTgRG1GE6s5U4AHaIw?cb=12&rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/R.6ef8a04c67906215cdafc78d207e3249?rik=lLNVddUSHfXyVQ&pid=ImgRaw&r=0',
     ),
-    Product(
-      id: 'p1',
-      title: 'Teshirt',
-      description: 'A red shirt - it is pretty red!',
-      price: 29.99,
-      imageUrl:
-      'https://m.media-amazon.com/images/I/8107kOhQuOL.jpg',
-    ),
-    Product(
-      id: 'p1',
-      title: 'CCTV',
-      description: 'A red shirt - it is pretty red!',
-      price: 29.99,
-      imageUrl:
-      'https://th.bing.com/th/id/OIP.eFmNdgU3LD0jlSMPy-fKMAHaHa?cb=12&rs=1&pid=ImgDetMain',
-    ),
-    Product(
-      id: 'p1',
-      title: 'Car',
-      description: 'A red shirt - it is pretty red!',
-      price: 29.99,
-      imageUrl:
-      'https://th.bing.com/th/id/R.2b0afbafa15a486ca4d7943c011d85a5?rik=7ZoFZKI6Dsbuqw&pid=ImgRaw&r=0',
-    ),
+
 
     // Add more products here
   ];
@@ -91,8 +68,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.teal,
-        title: Text('MyShop',style: TextStyle(color: Colors.white),),
+        backgroundColor: Colors.red,
+        title: Text('مطعم العـافية',style: TextStyle(color: Colors.white),),
         centerTitle: true,
 
       ),
@@ -102,15 +79,15 @@ class HomeScreen extends StatelessWidget {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.teal,
+                color: Colors.red,
               ), //BoxDecoration
               child: UserAccountsDrawerHeader(
-                decoration: BoxDecoration(color: Colors.teal),
+                decoration: BoxDecoration(color: Colors.red),
                 accountName: Text(
-                  "Mawda Aliabid",
+                  "user name",
                   style: TextStyle(fontSize: 18),
                 ),
-                accountEmail: Text("Sarah123@gmail.com"),
+                accountEmail: Text("emailaddress@gmail.com"),
                 currentAccountPictureSize: Size.square(50),
                 currentAccountPicture: CircleAvatar(
                   backgroundColor: Colors.white,
@@ -167,7 +144,7 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       body: GridView.builder(
-        padding: const EdgeInsets.all(10.0),
+        padding:  EdgeInsets.all(10.0),
         itemCount: loadedProducts.length,
         itemBuilder: (ctx, i) => ProductItem(
           loadedProducts[i].id,
