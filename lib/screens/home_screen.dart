@@ -6,59 +6,67 @@ class HomeScreen extends StatelessWidget {
   final List<Product> loadedProducts = [
     Product(
       id: '1',
-      title: 'بيتزا',
-      description: 'بيتزا بالحمه',
+      title: 'سلطـة',
+      description: 'سلطة مشكلة',
       price: 499.99,
       imageUrl:
-          'https://th.bing.com/th/id/R.a55802f0374676c731d4715c463bfb19?rik=qFdO%2ft7RJWWfYA&pid=ImgRaw&r=0',
+          'https://th.bing.com/th/id/R.a04eee66e3a5f5d144f8eb29861b329a?rik=AgU6Iarz6O63nw&riu=http%3a%2f%2fwww.alrakia.com%2fwp-content%2fuploads%2f2017%2f10%2f%d8%a7%d9%84%d8%ae%d8%b6%d8%a7%d8%b1.jpg&ehk=zRUBaIHZDr1HXIS3t1SLV%2fuffnqHdiNY5nRAwmgEUe4%3d&risl=&pid=ImgRaw&r=0',
     ),
     Product(
       id: '2',
-      title: 'بيرقر',
-      description: 'بيرقر كبير',
+      title: 'فلفل حلو',
+      description: 'فلفل',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.bR0IZ8zNzSTCnA0fMMz-xQHaHa?rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.e66-y-8QJELKqyamozBI4wHaEK?rs=1&pid=ImgDetMain',
     ),
     Product(
       id: '3',
-      title: 'فطيرة',
-      description: 'فطيرة مالحه',
+      title: 'شطة خضراء',
+      description: '',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.Lp3-w2dWwfOu54VczRRYMwHaE8?rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.yLeJ5ELFsZUOkeCubo1ENAHaEV?rs=1&pid=ImgDetMain',
     ),
     Product(
       id: '4',
-      title: 'شاورما',
-      description: 'شاورما دجاج',
+      title: 'طماطم',
+      description: '',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.s_jj-zisu7o8DVzvAcuVTQHaE8?rs=1&pid=ImgDetMain',
+      'https://www.washingtonfamily.com/wp-content/uploads/2022/04/GettyImages-1258142863-1024x742.jpeg',
     ),
     Product(
       id: '5',
-      title: 'كرسبي',
-      description: 'كرسبي',
+      title: 'بصل',
+      description: '',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/OIP.VVzczdSTLUPkyE3CUngYVgHaHa?rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.cEbHuF6X_kZ6ItS2EXpw2gHaHa?rs=1&pid=ImgDetMain',
     ),
     Product(
       id: '6',
-      title: 'شيش طاووق',
-      description: 'شيش',
+      title: 'جرجير',
+      description: '',
       price: 499.99,
       imageUrl:
-      'https://th.bing.com/th/id/R.2f0aee56c23874d6fc17fe66d71be658?rik=CpH%2fh3ntnj7JGQ&pid=ImgRaw&r=0',
+      'https://th.bing.com/th/id/OIP.rJMWBnXihJV_aiUBfpPYFwHaEc?rs=1&pid=ImgDetMain',
     ),
     Product(
       id: '7',
-      title: 'سمك',
-      description: 'سمك محمر',
+      title: 'بنجر',
+      description: '',
       price: 29.99,
       imageUrl:
-      'https://th.bing.com/th/id/R.6ef8a04c67906215cdafc78d207e3249?rik=lLNVddUSHfXyVQ&pid=ImgRaw&r=0',
+      'https://th.bing.com/th/id/OIP.qDZaFeJcMHdHIlTWq02JPwHaHa?rs=1&pid=ImgDetMain',
+    ),
+    Product(
+      id: '7',
+      title: 'خيار',
+      description: '',
+      price: 29.99,
+      imageUrl:
+      'https://th.bing.com/th/id/R.e1e66393dd3df73ed0954c0ff181ab6e?rik=zyYaISLpckUmUw&pid=ImgRaw&r=0',
     ),
 
 
@@ -68,8 +76,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
-        title: Text('مطعم العـافية',style: TextStyle(color: Colors.white),),
+        backgroundColor: Colors.green,
+        title: Text('دكـان خُضـار',style: TextStyle(color: Colors.white),),
         centerTitle: true,
 
       ),
@@ -79,10 +87,10 @@ class HomeScreen extends StatelessWidget {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.red,
+                color: Colors.green,
               ), //BoxDecoration
               child: UserAccountsDrawerHeader(
-                decoration: BoxDecoration(color: Colors.red),
+                decoration: BoxDecoration(color: Colors.green),
                 accountName: Text(
                   "user name",
                   style: TextStyle(fontSize: 18),

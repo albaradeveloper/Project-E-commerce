@@ -12,7 +12,7 @@ class ProductItem extends StatelessWidget {
         fit: BoxFit.fill,
       ),
       footer: GridTileBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.green,
         leading: IconButton(
           icon: Icon(Icons.favorite),
           onPressed: () {},
